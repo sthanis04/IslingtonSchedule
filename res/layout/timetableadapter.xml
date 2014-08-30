@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dip"
+     >
+
+    <TextView
+        android:id="@+id/module"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Module"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/startime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/module"
+        android:layout_below="@+id/module"
+        android:layout_marginLeft="22dp"
+        android:textSize="14sp"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        android:text="startime" />
+
+    <TextView
+        android:id="@+id/endtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startime"
+        android:layout_alignBottom="@+id/startime"
+        android:layout_toRightOf="@+id/startime"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="endtime" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/endtime"
+        android:layout_alignBottom="@+id/endtime"
+        android:layout_alignRight="@+id/module"
+        android:layout_marginRight="52dp"
+        android:text="Type" />
+
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startime"
+        android:layout_below="@+id/startime"
+        android:text="room" />
+
+    <TextView
+        android:id="@+id/lecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/room"
+        android:layout_below="@+id/room"
+        android:text="lecturer" />
+    
+</RelativeLayout>

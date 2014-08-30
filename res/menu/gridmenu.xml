@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/refresh"
+  		android:title="Update"
+        android:showAsAction="always"
+        >
+    </item>
+    <item
+        android:id="@+id/changegroup"
+        android:icon="@drawable/changeuser"
+     	android:title="change Group/User"
+     	android:showAsAction="always"
+        >
+        
+        
+    </item>
+    
+
+</menu>

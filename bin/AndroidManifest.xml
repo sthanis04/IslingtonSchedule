@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anis.FYP_test1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+    
+     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.anis.IslingtonSchedule.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.anis.IslingtonSchedule.Grid"
+           		  >
+            
+        </activity>
+        
+        <activity android:name="com.anis.IslingtonSchedule.TimetableUI"
+             	  
+             	  android:icon="@drawable/timetable"
+             	  android:label="Class Timetable" >
+            </activity>
+            
+        <activity android:name="com.anis.IslingtonSchedule.CourseworkUI"
+            	  android:icon="@drawable/coursework"
+             	  android:label="Coursework" >
+            
+        </activity>
+        
+        <activity android:name="com.anis.IslingtonSchedule.ExamUI"
+            	  android:icon="@drawable/test"
+             	  android:label="Exam Schedule" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Login"
+                 android:screenOrientation="portrait" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.DownloadFiles" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Sunday" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Monday" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Tuesday" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Wednesday" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Thursday" >
+            </activity>
+            
+       <activity android:name="com.anis.IslingtonSchedule.Friday" >
+            </activity>
+        
+        
+    </application>
+
+</manifest>
